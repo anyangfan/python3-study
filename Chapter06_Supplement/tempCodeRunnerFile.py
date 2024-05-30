@@ -1,0 +1,2 @@
+print("people:")
+    print(people)
