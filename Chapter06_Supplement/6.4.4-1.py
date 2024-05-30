@@ -27,7 +27,8 @@ def store(data,*full_names):
             people = lookup(data,label,name)
             if people:
                 print("名字已存在")
-                people.append(full_name)
+                if full_name not in people:
+                    people.append(full_name)
                 #print(people)
             else:
                 print("名字不存在,存储名字")
@@ -47,3 +48,5 @@ print(storage)
 store(storage,"An Yang Fan")
 store(storage,"Chen shou xiang")
 store(storage,"An Yang Fan")
+
+print(storage)
