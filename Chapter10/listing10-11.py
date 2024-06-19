@@ -22,7 +22,7 @@ def replacement(match):
 
 # Get all the text as a single string:
 
-# (There are other ways of doing this; see Chapter 11)
+# (There are other ways of doing this; see Chapter 11)在print(field_pat.sub(replacement, text))中,replacement函数作为参数传递给sub方法时,sub方法会自动将匹配到的内容作为参数传递给replacement函数。因此,在replacement函数内部可以通过match.group(1)来获取匹配到的内容,而不需要在函数定义时显式声明match参数。
 lines = []
 for line in fileinput.input():
     lines.append(line)
@@ -30,3 +30,8 @@ text = ''.join(lines)
 
 # Substitute all the occurrences of the field pattern:
 print(field_pat.sub(replacement, text))
+'''
+在print(field_pat.sub(replacement, text))中,
+replacement函数作为参数传递给sub方法时,sub方法会自动将匹配到的内容作为参数传递给replacement函数。
+因此,在replacement函数内部可以通过match.group(1)来获取匹配到的内容,而不需要在函数定义时显式声明match参数。
+'''
