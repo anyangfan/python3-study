@@ -1,0 +1,4 @@
+2024-07-01 07:45:34,697 - __main__ [line:1]- INFO - Start print log
+2024-07-01 07:45:34,703 - __main__ [line:2]- DEBUG - Do something
+2024-07-01 07:45:34,713 - __main__ [line:3]- WARNING - Something maybe fail.
+2024-07-01 07:45:34,725 - __main__ [line:4]- INFO - Finish

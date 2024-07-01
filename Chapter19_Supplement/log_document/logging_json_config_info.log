@@ -1,0 +1,9 @@
+2024-07-01 09:39:34,533 - root [line:18] - INFO - start func
+2024-07-01 09:39:34,538 - root [line:20] - INFO - exec func
+2024-07-01 09:39:34,545 - root [line:22] - INFO - end func
+2024-07-01 09:39:37,612 - root [line:18] - INFO - start func
+2024-07-01 09:39:37,620 - root [line:20] - INFO - exec func
+2024-07-01 09:39:37,628 - root [line:22] - INFO - end func
+2024-07-01 09:41:09,277 - root [line:18] - INFO - start func
+2024-07-01 09:41:09,285 - root [line:20] - INFO - exec func
+2024-07-01 09:41:09,292 - root [line:22] - INFO - end func

@@ -1,0 +1,22 @@
+2024-07-01 07:53:19,051 - __main__ [line:1]- INFO - Start print log
+2024-07-01 07:53:19,059 - __main__ [line:2]- DEBUG - Do something
+2024-07-01 07:53:19,068 - __main__ [line:3]- WARNING - Something maybe fail.
+2024-07-01 07:53:19,074 - __main__ [line:9]- ERROR - Fail to open sketch.txt from logger.exception
+Traceback (most recent call last):
+  File "/tmp/ipykernel_3483/370739813.py", line 5, in <module>
+    open("sketch.txt", "rb")
+  File "/userdata/Li/miniconda3/envs/python_study/lib/python3.8/site-packages/IPython/core/interactiveshell.py", line 284, in _modified_open
+    return io_open(file, *args, **kwargs)
+FileNotFoundError: [Errno 2] No such file or directory: 'sketch.txt'
+2024-07-01 07:53:19,089 - __main__ [line:10]- INFO - Finish
+2024-07-01 09:05:29,151 - __main__ [line:1]- INFO - Start print log
+2024-07-01 09:05:29,159 - __main__ [line:2]- DEBUG - Do something
+2024-07-01 09:05:29,166 - __main__ [line:3]- WARNING - Something maybe fail.
+2024-07-01 09:05:29,173 - __main__ [line:9]- ERROR - Fail to open sketch.txt from logger.exception
+Traceback (most recent call last):
+  File "/tmp/ipykernel_4536/370739813.py", line 5, in <module>
+    open("sketch.txt", "rb")
+  File "/userdata/Li/miniconda3/envs/python_study/lib/python3.8/site-packages/IPython/core/interactiveshell.py", line 284, in _modified_open
+    return io_open(file, *args, **kwargs)
+FileNotFoundError: [Errno 2] No such file or directory: 'sketch.txt'
+2024-07-01 09:05:29,180 - __main__ [line:10]- INFO - Finish

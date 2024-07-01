@@ -1,0 +1,8 @@
+2019-02-14 13:23:11,201 - __main__ [line:1]- INFO - Start print log
+2019-02-14 13:23:11,212 - __main__ [line:2]- DEBUG - Do something
+2019-02-14 13:23:11,226 - __main__ [line:3]- WARNING - Something maybe fail.
+2019-02-14 13:23:11,236 - __main__ [line:4]- INFO - Finish
+2024-07-01 03:59:58,381 - __main__ [line:1]- INFO - Start print log
+2024-07-01 03:59:58,392 - __main__ [line:2]- DEBUG - Do something
+2024-07-01 03:59:58,404 - __main__ [line:3]- WARNING - Something maybe fail.
+2024-07-01 03:59:58,413 - __main__ [line:4]- INFO - Finish

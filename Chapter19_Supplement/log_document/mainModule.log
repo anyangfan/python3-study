@@ -1,0 +1,20 @@
+mainModule:creating an instance of subModule.subModuleClass
+mainModule.sub.module:creating an instance in mainModule.sub.module
+mainModule:calling subModule.subModuleClass.doSomething
+mainModule.sub.module:do something from mainModule.sub.module
+added 1 to a
+finish something in mainModule.sub.module
+mainModule:done with subModule.subModuleClass.doSomething
+mainModule:calling subModule.some_function
+mainModule.sub(som_function):call function in som_function
+mainModule:done with subModule.some_function
+mainModule:creating an instance of subModule.subModuleClass
+mainModule.sub.module:creating an instance in mainModule.sub.module
+mainModule:calling subModule.subModuleClass.doSomething
+mainModule.sub.module:do something from mainModule.sub.module
+added 1 to a
+finish something in mainModule.sub.module
+mainModule:done with subModule.subModuleClass.doSomething
+mainModule:calling subModule.some_function
+mainModule.sub(som_function):call function in som_function
+mainModule:done with subModule.some_function
